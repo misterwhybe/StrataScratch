@@ -28,3 +28,5 @@ ON T1.department = T2.department
 LEFT JOIN managers m
 ON T1.department = m.department
 ORDER BY department, T1.salary DESC
+
+-- https://platform.stratascratch.com/coding/2146-department-manager-and-employee-salary-comparison
